@@ -42,7 +42,7 @@ Make sure you have the following software installed on your system:
 
 1.  **Clone the main repository:**
     ```bash
-    git clone [https://github.com/trenod/PySCIn.git](https://github.com/trenod/PySCIn.git)
+    git clone https://github.com/trenod/PySCIn.git
     ```
 2.  **Navigate into the project directory:**
     ```bash
@@ -51,7 +51,7 @@ Make sure you have the following software installed on your system:
 3.  **Clone the target Python Algorithms repository:**
     This repository will be used as the source code for the analysis. It should be cloned into the same folder as this project.
     ```bash
-    git clone [https://github.com/TheAlgorithms/Python](https://github.com/TheAlgorithms/Python)
+    git clone https://github.com/TheAlgorithms/Python.git
     ```
 4.  **Navigate into the Python Algorithms directory:**
     ```bash
