@@ -1,0 +1,357 @@
+Trace0 None
+Line 65 {"point": null}|||---|||{}
+Line 78 {"point": null}|||---|||{}
+Trace1 [1, 'one']
+Line 65 {"point": [1, "one"]}|||---|||{}
+Line 66 {"point": [1, "one"]}|||---|||{}
+Line 67 {"point": [1, "one"]}|||---|||{}
+Line 68 {"point": [1, "one"], "item": 1}|||---|||{}
+Line 67 {"point": [1, "one"], "item": 1}|||---|||{}
+Line 68 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 70 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 71 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 70 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 69 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 73 {"point": [1, "one"], "item": "one", "msg": "Expected a list of numbers as input, found str"}|||---|||{}
+Trace2 1
+Line 65 {"point": 1}|||---|||{}
+Line 66 {"point": 1}|||---|||{}
+Line 75 {"point": 1}|||---|||{}
+Line 76 {"point": 1, "msg": "Expected a list of numbers as input, found int"}|||---|||{}
+Trace3 'not_a_list'
+Line 65 {"point": "not_a_list"}|||---|||{}
+Line 66 {"point": "not_a_list"}|||---|||{}
+Line 75 {"point": "not_a_list"}|||---|||{}
+Line 76 {"point": "not_a_list", "msg": "Expected a list of numbers as input, found str"}|||---|||{}
+Trace4 [1, 1] [2, 2]
+Line 38 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Trace5 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 39 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Trace6 [2, 2]
+Line 65 {"point": [2, 2]}|||---|||{}
+Line 66 {"point": [2, 2]}|||---|||{}
+Line 67 {"point": [2, 2]}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 40 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Line 43 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Line 43 {".0": [[1, 2], [1, 2]]}|||---|||{}
+Trace7 [1.5, 1.5] [2, 2]
+Line 38 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Trace8 [1.5, 1.5]
+Line 65 {"point": [1.5, 1.5]}|||---|||{}
+Line 66 {"point": [1.5, 1.5]}|||---|||{}
+Line 67 {"point": [1.5, 1.5]}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 39 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Trace9 [2, 2]
+Line 65 {"point": [2, 2]}|||---|||{}
+Line 66 {"point": [2, 2]}|||---|||{}
+Line 67 {"point": [2, 2]}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 40 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Line 43 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Line 43 {".0": [[1.5, 2], [1.5, 2]]}|||---|||{}
+Trace10 [1.5, 1.5] [2.5, 2]
+Line 38 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Trace11 [1.5, 1.5]
+Line 65 {"point": [1.5, 1.5]}|||---|||{}
+Line 66 {"point": [1.5, 1.5]}|||---|||{}
+Line 67 {"point": [1.5, 1.5]}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 39 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Trace12 [2.5, 2]
+Line 65 {"point": [2.5, 2]}|||---|||{}
+Line 66 {"point": [2.5, 2]}|||---|||{}
+Line 67 {"point": [2.5, 2]}|||---|||{}
+Line 68 {"point": [2.5, 2], "item": 2.5}|||---|||{}
+Line 67 {"point": [2.5, 2], "item": 2.5}|||---|||{}
+Line 68 {"point": [2.5, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2.5, 2], "item": 2}|||---|||{}
+Line 40 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Line 43 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Line 43 {".0": [[1.5, 2.5], [1.5, 2]]}|||---|||{}
+Trace13 [-3, -3, -3] [0, 0, 0]
+Line 38 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Trace14 [-3, -3, -3]
+Line 65 {"point": [-3, -3, -3]}|||---|||{}
+Line 66 {"point": [-3, -3, -3]}|||---|||{}
+Line 67 {"point": [-3, -3, -3]}|||---|||{}
+Line 68 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 67 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 68 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 67 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 68 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 67 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 39 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Trace15 [0, 0, 0]
+Line 65 {"point": [0, 0, 0]}|||---|||{}
+Line 66 {"point": [0, 0, 0]}|||---|||{}
+Line 67 {"point": [0, 0, 0]}|||---|||{}
+Line 68 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 67 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 68 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 67 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 68 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 67 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 40 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Line 43 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Line 43 {".0": [[-3, 0], [-3, 0], [-3, 0]]}|||---|||{}
+Trace16 [1, 1] None
+Line 38 {"point_a": [1, 1], "point_b": null}|||---|||{}
+Trace17 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 39 {"point_a": [1, 1], "point_b": null}|||---|||{}
+Trace18 None
+Line 65 {"point": null}|||---|||{}
+Line 78 {"point": null}|||---|||{}
+Trace19 [1, 1] [2, 2, 2]
+Line 38 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Trace20 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 39 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Trace21 [2, 2, 2]
+Line 65 {"point": [2, 2, 2]}|||---|||{}
+Line 66 {"point": [2, 2, 2]}|||---|||{}
+Line 67 {"point": [2, 2, 2]}|||---|||{}
+Line 68 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 40 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Line 41 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Trace22 [1, 'one'] [2, 2, 2]
+Line 38 {"point_a": [1, "one"], "point_b": [2, 2, 2]}|||---|||{}
+Trace23 [1, 'one']
+Line 65 {"point": [1, "one"]}|||---|||{}
+Line 66 {"point": [1, "one"]}|||---|||{}
+Line 67 {"point": [1, "one"]}|||---|||{}
+Line 68 {"point": [1, "one"], "item": 1}|||---|||{}
+Line 67 {"point": [1, "one"], "item": 1}|||---|||{}
+Line 68 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 70 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 71 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 70 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 69 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 73 {"point": [1, "one"], "item": "one", "msg": "Expected a list of numbers as input, found str"}|||---|||{}
+Trace24 1 [2, 2, 2]
+Line 38 {"point_a": 1, "point_b": [2, 2, 2]}|||---|||{}
+Trace25 1
+Line 65 {"point": 1}|||---|||{}
+Line 66 {"point": 1}|||---|||{}
+Line 75 {"point": 1}|||---|||{}
+Line 76 {"point": 1, "msg": "Expected a list of numbers as input, found int"}|||---|||{}
+Trace26 [1, 1] 'not_a_list'
+Line 38 {"point_a": [1, 1], "point_b": "not_a_list"}|||---|||{}
+Trace27 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 39 {"point_a": [1, 1], "point_b": "not_a_list"}|||---|||{}
+Trace28 'not_a_list'
+Line 65 {"point": "not_a_list"}|||---|||{}
+Line 66 {"point": "not_a_list"}|||---|||{}
+Line 75 {"point": "not_a_list"}|||---|||{}
+Line 76 {"point": "not_a_list", "msg": "Expected a list of numbers as input, found str"}|||---|||{}
+Trace29 [1, 1] [2, 2]
+Line 115 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Trace30 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 116 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Trace31 [2, 2]
+Line 65 {"point": [2, 2]}|||---|||{}
+Line 66 {"point": [2, 2]}|||---|||{}
+Line 67 {"point": [2, 2]}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 117 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Line 120 {"point_a": [1, 1], "point_b": [2, 2]}|||---|||{}
+Line 120 {".0": [[1, 2], [1, 2]]}|||---|||{}
+Trace32 [1.5, 1.5] [2, 2]
+Line 115 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Trace33 [1.5, 1.5]
+Line 65 {"point": [1.5, 1.5]}|||---|||{}
+Line 66 {"point": [1.5, 1.5]}|||---|||{}
+Line 67 {"point": [1.5, 1.5]}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 116 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Trace34 [2, 2]
+Line 65 {"point": [2, 2]}|||---|||{}
+Line 66 {"point": [2, 2]}|||---|||{}
+Line 67 {"point": [2, 2]}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2], "item": 2}|||---|||{}
+Line 117 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Line 120 {"point_a": [1.5, 1.5], "point_b": [2, 2]}|||---|||{}
+Line 120 {".0": [[1.5, 2], [1.5, 2]]}|||---|||{}
+Trace35 [1.5, 1.5] [2.5, 2]
+Line 115 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Trace36 [1.5, 1.5]
+Line 65 {"point": [1.5, 1.5]}|||---|||{}
+Line 66 {"point": [1.5, 1.5]}|||---|||{}
+Line 67 {"point": [1.5, 1.5]}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 68 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 67 {"point": [1.5, 1.5], "item": 1.5}|||---|||{}
+Line 116 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Trace37 [2.5, 2]
+Line 65 {"point": [2.5, 2]}|||---|||{}
+Line 66 {"point": [2.5, 2]}|||---|||{}
+Line 67 {"point": [2.5, 2]}|||---|||{}
+Line 68 {"point": [2.5, 2], "item": 2.5}|||---|||{}
+Line 67 {"point": [2.5, 2], "item": 2.5}|||---|||{}
+Line 68 {"point": [2.5, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2.5, 2], "item": 2}|||---|||{}
+Line 117 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Line 120 {"point_a": [1.5, 1.5], "point_b": [2.5, 2]}|||---|||{}
+Line 120 {".0": [[1.5, 2.5], [1.5, 2]]}|||---|||{}
+Trace38 [-3, -3, -3] [0, 0, 0]
+Line 115 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Trace39 [-3, -3, -3]
+Line 65 {"point": [-3, -3, -3]}|||---|||{}
+Line 66 {"point": [-3, -3, -3]}|||---|||{}
+Line 67 {"point": [-3, -3, -3]}|||---|||{}
+Line 68 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 67 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 68 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 67 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 68 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 67 {"point": [-3, -3, -3], "item": -3}|||---|||{}
+Line 116 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Trace40 [0, 0, 0]
+Line 65 {"point": [0, 0, 0]}|||---|||{}
+Line 66 {"point": [0, 0, 0]}|||---|||{}
+Line 67 {"point": [0, 0, 0]}|||---|||{}
+Line 68 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 67 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 68 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 67 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 68 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 67 {"point": [0, 0, 0], "item": 0}|||---|||{}
+Line 117 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Line 120 {"point_a": [-3, -3, -3], "point_b": [0, 0, 0]}|||---|||{}
+Line 120 {".0": [[-3, 0], [-3, 0], [-3, 0]]}|||---|||{}
+Trace41 [1, 1] None
+Line 115 {"point_a": [1, 1], "point_b": null}|||---|||{}
+Trace42 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 116 {"point_a": [1, 1], "point_b": null}|||---|||{}
+Trace43 None
+Line 65 {"point": null}|||---|||{}
+Line 78 {"point": null}|||---|||{}
+Trace44 [1, 1] [2, 2, 2]
+Line 115 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Trace45 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 116 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Trace46 [2, 2, 2]
+Line 65 {"point": [2, 2, 2]}|||---|||{}
+Line 66 {"point": [2, 2, 2]}|||---|||{}
+Line 67 {"point": [2, 2, 2]}|||---|||{}
+Line 68 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 68 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 67 {"point": [2, 2, 2], "item": 2}|||---|||{}
+Line 117 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Line 118 {"point_a": [1, 1], "point_b": [2, 2, 2]}|||---|||{}
+Trace47 [1, 'one'] [2, 2, 2]
+Line 115 {"point_a": [1, "one"], "point_b": [2, 2, 2]}|||---|||{}
+Trace48 [1, 'one']
+Line 65 {"point": [1, "one"]}|||---|||{}
+Line 66 {"point": [1, "one"]}|||---|||{}
+Line 67 {"point": [1, "one"]}|||---|||{}
+Line 68 {"point": [1, "one"], "item": 1}|||---|||{}
+Line 67 {"point": [1, "one"], "item": 1}|||---|||{}
+Line 68 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 70 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 71 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 70 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 69 {"point": [1, "one"], "item": "one"}|||---|||{}
+Line 73 {"point": [1, "one"], "item": "one", "msg": "Expected a list of numbers as input, found str"}|||---|||{}
+Trace49 1 [2, 2, 2]
+Line 115 {"point_a": 1, "point_b": [2, 2, 2]}|||---|||{}
+Trace50 1
+Line 65 {"point": 1}|||---|||{}
+Line 66 {"point": 1}|||---|||{}
+Line 75 {"point": 1}|||---|||{}
+Line 76 {"point": 1, "msg": "Expected a list of numbers as input, found int"}|||---|||{}
+Trace51 [1, 1] 'not_a_list'
+Line 115 {"point_a": [1, 1], "point_b": "not_a_list"}|||---|||{}
+Trace52 [1, 1]
+Line 65 {"point": [1, 1]}|||---|||{}
+Line 66 {"point": [1, 1]}|||---|||{}
+Line 67 {"point": [1, 1]}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 68 {"point": [1, 1], "item": 1}|||---|||{}
+Line 67 {"point": [1, 1], "item": 1}|||---|||{}
+Line 116 {"point_a": [1, 1], "point_b": "not_a_list"}|||---|||{}
+Trace53 'not_a_list'
+Line 65 {"point": "not_a_list"}|||---|||{}
+Line 66 {"point": "not_a_list"}|||---|||{}
+Line 75 {"point": "not_a_list"}|||---|||{}
+Line 76 {"point": "not_a_list", "msg": "Expected a list of numbers as input, found str"}|||---|||{}
