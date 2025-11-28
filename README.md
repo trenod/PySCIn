@@ -7,7 +7,7 @@ PySCIn - Python Systematic Coverage Information
 [![License: MIT](https://img.shields.io/badge/License-MIT-yellow.svg)](https://opensource.org/licenses/MIT)
 [![Issues](https://img.shields.io/github/issues/trenod/PySCIn)](https://github.com/trenod/PySCIn/issues)
 
-![Tests](https://github.com/trenod/PySCIn/actions/workflows/tests.yml/badge.svg)
+![Tests](https://github.com/trenod/PySCIn/workflows/tests.yml/badge.svg)
 
 A tool for generating execution traces and performing coverage analysis on Python codebases that use doctest.
 
